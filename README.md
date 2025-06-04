@@ -15,12 +15,12 @@ Table of Contents
 ## Project Description
 
 This notebook analyzes SMS messages to differentiate between "ham" (legitimate) and "spam" messages using various NLP techniques. The key steps include:
-- Loading the Dataset:** Downloading and loading the SMS Spam Collection dataset.
-- Basic Analysis:** Displaying dataset overview, label distribution, and sample messages.
-- Text Statistics:** Calculating and visualizing message length, word count, average word length, and punctuation count for ham and spam messages.
-- Word Frequency Analysis:** Identifying and visualizing the most frequent words in both ham and spam messages using word clouds and bar plots.
-- Text Normalization:** Applying regular expressions to normalize text, including tokenizing specific patterns like emails, URLs, phone numbers, monetary amounts, percentages, and dates, and normalizing numbers and removing special characters.
-- Semantic Analysis:** Using TF-IDF to vectorize the text, calculating semantic similarity, clustering messages based on semantic content, and visualizing the clusters and top terms.
+- Loading the Dataset: Downloading and loading the SMS Spam Collection dataset.
+- Basic Analysis: Displaying dataset overview, label distribution, and sample messages.
+- Text Statistics: Calculating and visualizing message length, word count, average word length, and punctuation count for ham and spam messages.
+- Word Frequency Analysis: Identifying and visualizing the most frequent words in both ham and spam messages using word clouds and bar plots.
+- Text Normalization: Applying regular expressions to normalize text, including tokenizing specific patterns like emails, URLs, phone numbers, monetary amounts, percentages, and dates, and normalizing numbers and removing special characters.
+- Semantic Analysis: Using TF-IDF to vectorize the text, calculating semantic similarity, clustering messages based on semantic content, and visualizing the clusters and top terms.
 
 ## Setup and Installation
 This code is designed to run in a Google Colab environment or a Jupyter Notebook.
@@ -32,7 +32,7 @@ The project uses the [SMS Spam Collection dataset](https://archive.ics.uci.edu/m
 
 ## Running the Code
 Once the setup cells are executed, you can run the remaining cells sequentially to perform the analysis. Each cell performs a specific part of the NLP pipeline:
-1.  Load Dataset:** Loads the SMS Spam Collection data into a pandas DataFrame.
+1.  Load Dataset: Loads the SMS Spam Collection data into a pandas DataFrame.
 2.  Basic Dataset Information: Prints summary statistics and sample messages.
 3.  Calculate Text Statistics: Computes and displays descriptive statistics about the messages (length, word count, etc.) and generates box plots.
 4.  Word Frequency Analysis: Calculates and displays the most frequent words and generates word clouds and bar plots.
@@ -46,10 +46,10 @@ To run each cell in Google Colab or Jupyter:
 
 ## Analysis Steps
 The notebook follows these main steps for the NLP analysis:
--   Data Loading and Inspection:** Understanding the structure and content of the dataset.
--   Exploratory Data Analysis (EDA):** Analyzing basic text statistics and word frequencies to gain initial insights into the differences between ham and spam.
--   Text Preprocessing:** Normalizing the text by handling specific patterns (emails, URLs, etc.) and cleaning special characters and numbers.
--   Semantic Analysis:** Using advanced techniques like TF-IDF and K-Means clustering to explore the underlying topics and similarity between messages.
+-   Data Loading and Inspection: Understanding the structure and content of the dataset.
+-   Exploratory Data Analysis (EDA): Analyzing basic text statistics and word frequencies to gain initial insights into the differences between ham and spam.
+-   Text Preprocessing: Normalizing the text by handling specific patterns (emails, URLs, etc.) and cleaning special characters and numbers.
+-   Semantic Analysis: Using advanced techniques like TF-IDF and K-Means clustering to explore the underlying topics and similarity between messages.
 
 ## Results and Visualizations
 The notebook generates various outputs and visualizations throughout the process, including:
