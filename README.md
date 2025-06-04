@@ -12,7 +12,7 @@ Table of Contents
 - [Results and Visualizations](#results-and-visualizations)
 - [Dependencies](#dependencies)
 
-Project Description
+## Project Description
 
 This notebook analyzes SMS messages to differentiate between "ham" (legitimate) and "spam" messages using various NLP techniques. The key steps include:
 - Loading the Dataset:** Downloading and loading the SMS Spam Collection dataset.
@@ -22,15 +22,15 @@ This notebook analyzes SMS messages to differentiate between "ham" (legitimate) 
 - Text Normalization:** Applying regular expressions to normalize text, including tokenizing specific patterns like emails, URLs, phone numbers, monetary amounts, percentages, and dates, and normalizing numbers and removing special characters.
 - Semantic Analysis:** Using TF-IDF to vectorize the text, calculating semantic similarity, clustering messages based on semantic content, and visualizing the clusters and top terms.
 
-Setup and Installation
+## Setup and Installation
 This code is designed to run in a Google Colab environment or a Jupyter Notebook.
 1.  Open the Notebook:Open the provided Python notebook file in Google Colab or your Jupyter environment.
 2.  Run the Setup Cells: The first few code cells handle the installation of necessary libraries and the download of NLTK data and spaCy models. Run these cells first to ensure all dependencies are met.
 
-Dataset
+## Dataset
 The project uses the [SMS Spam Collection dataset](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection) from the UCI Machine Learning Repository. The notebook automatically downloads and loads this dataset. A fallback sample dataset is included in case the download fails.
 
-Running the Code
+## Running the Code
 Once the setup cells are executed, you can run the remaining cells sequentially to perform the analysis. Each cell performs a specific part of the NLP pipeline:
 1.  Load Dataset:** Loads the SMS Spam Collection data into a pandas DataFrame.
 2.  Basic Dataset Information: Prints summary statistics and sample messages.
@@ -44,14 +44,14 @@ To run each cell in Google Colab or Jupyter:
 -   Alternatively, use the "Run cell" button that appears when you hover over the cell.
 -   You can run all cells in order using the "Runtime" menu -> "Run all".
 
-Analysis Steps
+## Analysis Steps
 The notebook follows these main steps for the NLP analysis:
 -   Data Loading and Inspection:** Understanding the structure and content of the dataset.
 -   Exploratory Data Analysis (EDA):** Analyzing basic text statistics and word frequencies to gain initial insights into the differences between ham and spam.
 -   Text Preprocessing:** Normalizing the text by handling specific patterns (emails, URLs, etc.) and cleaning special characters and numbers.
 -   Semantic Analysis:** Using advanced techniques like TF-IDF and K-Means clustering to explore the underlying topics and similarity between messages.
 
-Results and Visualizations
+## Results and Visualizations
 The notebook generates various outputs and visualizations throughout the process, including:
 -   Dataset shape, columns, and data types.
 -   Label distribution and percentages.
