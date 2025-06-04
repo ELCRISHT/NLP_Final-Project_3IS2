@@ -70,7 +70,7 @@ The notebook generates various outputs and visualizations throughout the process
 -   Heatmap of semantic similarity between a sample of messages.
 -   Bar plot of the top TF-IDF terms.
 
-Dependencies
+## Dependencies
 The code relies on the following Python libraries:
 
 -   `pandas==1.5.3`
