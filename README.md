@@ -89,6 +89,5 @@ The code relies on the following Python libraries:
 These libraries are automatically installed by the first code cell in the notebook.
 
 ## Developers
-Balan, Ariane Karell A.
-Valdez, Mary Joy M.
+Balan, Ariane Karell A., Valdez, Mary Joy M.
 
