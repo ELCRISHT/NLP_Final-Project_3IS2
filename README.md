@@ -11,7 +11,7 @@ Table of Contents
 - [Analysis Steps](#analysis-steps)
 - [Results and Visualizations](#results-and-visualizations)
 - [Dependencies](#dependencies)
-- [Developers] (#developers) 
+- [Developers](#developers) 
 
 ## Project Description
 
@@ -89,6 +89,6 @@ The code relies on the following Python libraries:
 These libraries are automatically installed by the first code cell in the notebook.
 
 ## Developers
-- Balan, Ariane Karell A.
-- Valdez, Mary Joy M.
+Balan, Ariane Karell A.
+Valdez, Mary Joy M.
 
